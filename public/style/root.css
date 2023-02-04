@@ -1,0 +1,41 @@
+html{
+  scroll-behavior: smooth
+}
+
+nav {
+  padding: 0;
+}
+
+body {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 300px;
+}
+.container{
+  width: 45%;
+  top: 60%;
+  left: 50%;
+  background: white;
+  border-radius: 7px;
+  min-width: 450px; 
+  position: absolute;
+  min-height: 100px; 
+}
+
+#newtask{
+  position: relative; 
+  padding: 25px 20px;
+}
+#newtask input{
+  width: 75%;
+  height: 40px;
+  padding: 10px;
+}
+
+h1,h2 {
+  text-align: center;
+  padding-left: 0%;
+  padding-right:10%;
+}

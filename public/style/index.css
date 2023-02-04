@@ -1,0 +1,75 @@
+:root {
+    --font1: Calibri;
+    --font2: Arial;
+    --font3: Helvetica;
+    --color1: #b5def7;
+    --color2: #f2f2f2;
+    --color3: #032a7c;
+    --search-bar-1: #ffffff;
+    --search-bar-2: #4d4d4d;
+    --search-bar-font: 'HelveticaNeue-Light', "Helvetica Neue Light", "Helvetica Neue";
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: var(--color4);
+    font-family: var(--font1);
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 510;
+    font-size: larger;
+}
+
+body {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: white;
+    height: 300px;
+}
+
+.container {
+    width: 45%;
+    top: 60%;
+    left: 50%;
+    background: white;
+    border-radius: 7px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+}
+
+#newtask {
+    position: relative;
+    padding: 25px 20px;
+}
+
+#newtask input {
+    width: 75%;
+    height: 40px;
+    padding: 10px;
+}
+
+h1,
+h2,
+h5 {
+    text-align: center;
+    padding-left: 35%;
+    padding-right: 0%;
+    font-family: var(--font1);
+}
